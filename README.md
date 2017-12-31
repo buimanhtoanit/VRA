@@ -10,12 +10,14 @@ Cấu hình máy tính sử dụng để train:
 -	CPU: Intel Core i5-4460 3.2GHz
 -	RAM: 8GB
 -	GPU: GTX 1050 6033MB
+
 Cài đặt darknet:
 B1. Clone project darknet từ github: 
 git clone https://github.com/AlexeyAB/darknet.git
 B2. Chỉnh sửa một số thông số môi trường cho phù hợp các chương trình đã cài đặt ở trên (OpenCV, CUDA) trong file \darknet\build\darknet\darknet.vcxproj
 B3. Chạy file solution \darknet\build\darknet\darknet.sln
 B4. Build Project với tùy chọn Release và x64 để có được chương trình darknet (\darknet\build\darknet\x64\darknet.exe).
+
 Chuẩn bị dữ liệu
 Cài đặt Yolo_mark (https://github.com/AlexeyAB/Yolo_mark)
 Đây là phần mềm sử dụng để xác định bounding box cho các ảnh train. Phần mềm này phù hợp cho Yolo v2.
