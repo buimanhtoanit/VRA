@@ -110,7 +110,7 @@ Config cho YoloV2 bao gồm 3 file, 2 file obj.data và obj.names đã được 
 
 	Nội dung chỉnh sửa gồm:
 
--	batch=24 là sử dụng 24 trong mỗi bước trainning.
+-	batch=12 là sử dụng 12 trong mỗi bước trainning.
 
 -	subdivisions=12 là chia 12 của batch cho mỗi bước trainning. Các tùy chọn này được thiết lập tùy thuộc phần cứng máy tính (card đồ họa) để tránh tình trạng CUDA out of memory error.
 
